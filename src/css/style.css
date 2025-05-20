@@ -18,6 +18,10 @@ main {
     /* Fondo blanco a azul claro */
 }
 
+.nt1, .nt2, .nt3, .nt4 {
+    transition: font-size 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .titulo {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
