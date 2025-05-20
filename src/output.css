@@ -804,6 +804,14 @@
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
+  .text-6xl {
+    font-size: var(--text-6xl);
+    line-height: var(--tw-leading, var(--text-6xl--line-height));
+  }
+  .text-7xl {
+    font-size: var(--text-7xl);
+    line-height: var(--tw-leading, var(--text-7xl--line-height));
+  }
   .text-base {
     font-size: var(--text-base);
     line-height: var(--tw-leading, var(--text-base--line-height));
@@ -2179,6 +2187,11 @@
       font-size: 52px;
     }
   }
+  .\32 xl\:relative {
+    @media (width >= 96rem) {
+      position: relative;
+    }
+  }
   .\32 xl\:bottom-\[-50px\] {
     @media (width >= 96rem) {
       bottom: -50px;
@@ -2207,6 +2220,26 @@
   .\32 xl\:bottom-\[-181px\] {
     @media (width >= 96rem) {
       bottom: -181px;
+    }
+  }
+  .\32 xl\:left-\[-10vw\] {
+    @media (width >= 96rem) {
+      left: -10vw;
+    }
+  }
+  .\32 xl\:left-\[8vw\] {
+    @media (width >= 96rem) {
+      left: 8vw;
+    }
+  }
+  .\32 xl\:left-\[10vw\] {
+    @media (width >= 96rem) {
+      left: 10vw;
+    }
+  }
+  .\32 xl\:mr-0 {
+    @media (width >= 96rem) {
+      margin-right: calc(var(--spacing) * 0);
     }
   }
   .\32 xl\:h-\[520px\] {
@@ -2250,6 +2283,18 @@
     @media (width >= 96rem) {
       font-size: var(--text-8xl);
       line-height: var(--tw-leading, var(--text-8xl--line-height));
+    }
+  }
+  .\32 xl\:text-9xl {
+    @media (width >= 96rem) {
+      font-size: var(--text-9xl);
+      line-height: var(--tw-leading, var(--text-9xl--line-height));
+    }
+  }
+  .\32 xl\:text-xl {
+    @media (width >= 96rem) {
+      font-size: var(--text-xl);
+      line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
   .\32 xl\:text-\[20px\] {
