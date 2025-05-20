@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    --color-darkblue: #002457;
+    --color-lightblue: #007BEA;
+    --color-blue: #005493;
+    --color-mediumlightblue: #60a5fa;
+    --color-lightgray: #eef7ff;
+    --color-orange: #FB831A;
+    --color-mintgreen: #00B76C;
+    --color-otroblue: #005493 ;
+    --breakpoint-3xl: 120rem;
+
+}
+

@@ -1,0 +1,270 @@
+@media (min-width: 2300px) {
+    .img2 {
+        width: 45vw;
+        height: 45vh;
+        right: -5vw !important;
+        top: -5vw;
+    }
+}
+
+/* Media query para pantallas de 1920px o más */
+@media (min-width: 1920px) {
+    .logoclarodoc {
+        left: -6vw;
+        width: 53vw;
+        height: 53vh;
+    }
+
+    .lododoctores {
+        width: 30vw;
+        height: 70vh;
+    }
+
+    /* section2 */
+    .letras-section2 {
+        left: 20px;
+    }
+
+    #garantia {
+        margin-top: -115px !important;
+    }
+}
+
+@media (min-height: 1200px) {
+  #garantia {
+         margin-top: -155px !important;
+    }
+}
+@media (min-width: 2560px) {
+    
+    /* .fecha-verde{
+        height: 16vh;
+    } */
+}
+
+@media (max-width: 1024px) {
+    .circuloverde {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .contenidoprincipal_section5 {
+        margin-top: 50px;
+    }
+
+    .comentario1,
+    .comentario2 {
+        width: 50vw;
+    }
+
+    .section5 {
+        top: 0vw;
+    }
+
+    .section5 .svg-section5 {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .section5 {
+        top: -20vw;
+    }
+
+    .section5 .svg-section5 {
+        height: 120vh;
+    }
+
+    .letrasws {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #bocaboca .text-4xl {
+        font-size: 1.75rem;
+        /* Reducción del tamaño de fuente */
+        line-height: 2.25rem;
+    }
+
+    #bocaboca .circulo1 {
+        width: 6rem;
+        height: 5rem;
+        bottom: -57px;
+        left: -57px;
+    }
+
+    #bocaboca .circulo2 {
+        width: 4rem;
+        height: 4rem;
+        top: -35px;
+        right: 15px;
+    }
+
+    .screen-button-modal {
+        display: none !important;
+    }
+
+    .section5 {
+        top: -1vw;
+    }
+
+    .comentario1,
+    .comentario2 {
+        width: 80vw;
+    }
+
+    .comentario2 .burbuja2 {
+        padding: 14px;
+    }
+    .letras-funcionamiento {
+        font-size: 2.5rem;
+        top: 10px;
+    }
+
+    .garantia {
+        font-size: 2.5rem;
+    }
+
+    .section5 {
+        top: 6vw;
+    }
+}
+
+@media (max-width: 634px) {
+    .section1 {
+        height: 60%;
+    }
+
+
+    .lista_benificio li div {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .lista_benificio li span {
+        font-size: 14px
+    }
+
+    .circuloverde {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .docdoble {
+        top: 0vw;
+    }
+
+    .section2 {
+        height: 60vh;
+    }
+
+    .imagen-manosdoc{
+        height: 41vh;
+    }
+    .conten_imagen-manosdoc{
+        margin-top: 5px;
+        width: 100vw;
+    }
+    .comentario2{
+        top: 25px !important;
+    }
+
+    .contenidoprincipal_section5 {
+        margin-top: 10px;
+    }
+
+    .cuadrado1 {
+        top: -38px;
+    }	
+
+    .cuadrado2{
+        right: 10px;
+        bottom: 106px;
+    }
+
+
+    /* Puedes agregar aquí más reglas específicas para 1920px */
+}
+
+@media (max-width: 375px) {
+    .letras-ws {
+        font-size: 0.8rem;
+    }
+
+    .logoclaro2 {
+        top: 0;
+    }
+
+    .comentario1 .burbuja1 {
+        height: 100px;
+    }
+
+
+    .docdoble {
+        top: 4vw;
+    }
+
+    .beneficio_img1 {
+        top: -0.5% !important;
+        right: -8% !important;
+    }
+
+    .burbuja2 {
+        height: 120px;
+    }
+
+    .contenidoprincipal_section5 {
+        margin-top: 0px;
+    }
+
+    .lista_benificio li:nth-child(1) div {
+        width: 20px;
+        height: 20px;
+    }
+
+    .lista_benificio li:nth-child(2) div {
+        width: 23px;
+        height: 20px;
+    }
+
+    .lista_benificio li:nth-child(3) div {
+        width: 20px;
+        height: 20px;
+    }
+
+    .lista_benificio li:nth-child(4) div {
+        width: 23px;
+        height: 20px;
+    }
+
+    .lista_benificio li:nth-child(5) div {
+        width: 25px;
+        height: 20px;
+    }
+
+    .section2 {
+        height: 65vh;
+    }
+
+    .contenedor_texto {
+        margin-top: 70px;
+    }	
+    .section3 {
+        height: 500px;
+    }
+    .comentar_garantia{
+        width: 90vw;
+    }
+}
+
+@media (min-width: 340px) {
+
+    /* Aquí puedes ajustar fuentes, márgenes, paddings, diseño general para móviles más comunes */
+    .logo {
+        width: 100px;
+    }
+
+}

@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Especialistas en marketing digital para profesionales de la salud. Llenamos tu agenda con pacientes calificados en menos de 30 días o trabajamos gratis.">
+    <meta name="keywords"
+        content="marketing digital, odontología, estética, fisioterapia, pacientes calificados, SEO local">
+    <meta name="author" content="Jeison Andres Balduz Gonzalez">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Marketing Digital para Profesionales de la Salud">
+    <meta property="og:image" content="src/svg/isotipo1_1.svg">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Marketing Para Profesionales de la Salud">
+    <meta name="twitter:description" content="Llenamos tu agenda con pacientes calificados en menos de 30 días">
+
+    <link rel="icon" href="src/svg/isotipo1_1.svg" type="image/x-icon">
+    <link rel="icon" href="src/svg/isotipo1_1.svg" type="image/png">
+
+    <title>Paciente Ideal</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/layoutlarge.css">
+    <script defern src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script defer src="https://vercel.com/analytics/tracking.js"></script>
+    <script defer src="/_vercel/insights/script.js"></script>
+
+
+</head>
+
+<body class="overflow-x-hidden">
+    <!-- Menú de navegación -->
+    <header id="navbar" class="max-sm:absolute sm:fixed top-0 left-0 w-full z-50">
+        <nav class="w-full mx-auto navegacion ">
+            <div
+                class="contenedor__menu flex  justify-between items-center max-sm:h-[4rem] md:h-[3rem]  xl:h-[3rem] bg-white">
+                <div class="flex items-center h-full px-4 max-sm:px-2 max-sm:py-2">
+                    <img class="logo w-10 sm:w-12 md:w-14 cursor-pointer logo" src="src/svg/logopacienteideal.svg"
+                        alt="..." style="font-family: 'Poppins';">
+                </div>
+                <div
+                    class="nav-links md:h-[48px] duration-500 md:static fixed min-h-screen md:min-h-fit left-0 -top-[100vh] md:w-auto w-full flex bg-white md:bg-transparent">
+                    <ul
+                        class="subtitulo__1 flex md:flex-row flex-col md:items-center 2xl:gap-[3vw] gap-0 w-full h-full  md:pt-0 relative">
+                        <div id="menu-slider"
+                            class="absolute md:h-full h-[63px] bg-lightblue transition-transform duration-300 ease-in-out transform md:rounded-s-md w-full md:w-auto left-0">
+                        </div>
+                        <li id="li1"
+                            class="relative z-10 flex items-center h-[63px] md:h-full w-full md:px-3 lg:px-7 transition-all duration-300 overflow-hidden">
+                            <a class="font-normal text-[20px]  text-mediumlightblue hover:text-darkblue w-full text-center md:text-left"
+                                href="#hero" onclick="selectMenuItem('li1')">Principal</a>
+                        </li>
+                        <li id="li2"
+                            class="relative z-10 flex items-center h-[63px] md:h-full w-full md:px-3 lg:px-7 transition-all duration-300 overflow-hidden">
+                            <a class="font-normal text-[20px] text-mediumlightblue hover:text-darkblue w-full text-center md:text-left"
+                                href="#beneficios" onclick="selectMenuItem('li2')">Beneficio</a>
+                        </li>
+                        <li id="li4"
+                            class="relative z-10 flex items-center h-[63px]  md:h-full tex-center md:px-3 lg:px-7 transition-all duration-300  w-full">
+                            <a class="font-normal text-[20px] text-mediumlightblue hover:text-darkblue w-full text-center md:text-left"
+                                href="#resultados" onclick="selectMenuItem('li4')">Resultados</a>
+                        </li>
+                        <li id="li3"
+                            class="relative z-10 flex items-center h-[63px] md:h-full w-full md:px-3 lg:px-7 transition-all duration-300 overflow-hidden">
+                            <a class="font-normal text-[20px] text-mediumlightblue hover:text-darkblue w-full text-center md:text-left"
+                                href="#funcionamiento" onclick="selectMenuItem('li3')">Solución</a>
+                        </li>
+
+                        <li id="li5"
+                            class="relative z-10 flex items-center h-[63px] md:h-full w-full md:px-3 lg:px-7 transition-all duration-300 overflow-hidden">
+                            <a class="font-normal text-[20px] text-mediumlightblue hover:text-darkblue w-full text-center md:text-left"
+                                href="#garantia" onclick="selectMenuItem('li5')">Garantia</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="flex items-center h-full sm:px-4  md:p-0 ">
+                    <a href="https://wa.me/+584243055075" target="_blank" class="lg:mr-4 ">
+                        <button
+                            class=" sm:text-base max-sm:text-[15px] cursor-pointer flex items-center sm:gap-2 bg-mintgreen text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg shadow-lg hover:-translate-y-1 transition-all duration-300 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="currentColor" class="sm:w-5 sm:h-5">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                            <span
+                                class="letrasws font-semibold  tex-lg max-sm:ml-1 sm:text-[12px] lg:text-[14px] xl:text-[19px] letras-ws">Consultar
+                                por
+                                WhatsApp</span>
+                        </button>
+                    </a>
+                    <ion-icon id="barra-menu" onclick="onToggleMenu(this)" name="menu"
+                        class="barra-menu text-lightblue  text-4xl sm:text-3xl  cursor-pointer  hidden"></ion-icon>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== SECCIÓN HERO ===== -->
+    <section id="hero" class="section1 w-screen h-screen relative z-0 -mt-[1px]">
+        <!-- SVG de fondo -->
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1255.97"
+            class="absolute top-0 left-0 w-full h-full -z-10" preserveAspectRatio="none">
+            <defs>
+                <style>
+                    .cls-2 {
+                        fill: url(#Nueva_muestra_de_degradado_1);
+                    }
+                </style>
+                <linearGradient id="Nueva_muestra_de_degradado_1" x1="960" y1="1255.97" x2="960"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#fff" />
+                    <stop offset="0.26" stop-color="#f1fcff" />
+                    <stop offset="0.67" stop-color="#e2f8ff" />
+                    <stop offset="1" stop-color="#ddf7ff" />
+                </linearGradient>
+            </defs>
+            <g id="Capa_2" data-name="Capa 2">
+                <g id="Capa_1-2" data-name="Capa 1">
+                    <rect class="cls-2" width="1920" height="1255.97" />
+                </g>
+            </g>
+        </svg>
+        <!-- Contenido encima -->
+        <div class="relative z-10 w-full h-full flex items-center justify-center ">
+            <!-- Imágenes decorativas -->
+            <img src="src/svg/logoclaro.svg" alt="Cruz decorativa"
+                class="logoclarodoc  absolute top-1/2 -translate-y-1/2 w-20 h-20 max-md:hidden md:w-[54vw] md:h-[60vh] md:left-[-10vw] xl:left-[] z-10  xl:left[-10vw] pointer-events-none select-none" />
+            <img src="src/webs/landing_stockphotosectionhero.webp" alt="Doctores decorativos"
+                class="lododoctores absolute right-0 top-1/2 -translate-y-1/2 w-60 h-53 max-sm:mt-[18vw] max-md:mt-[10vw] max-md:w-[55vw] max-sm:w-[60vw] max-md:h-[48vh] md:w-100 md:h-110 xl:w-[30vw] xl:h-[70vh] z-10 pointer-events-none select-none" />
+            <!-- Contenido principal -->
+            <div
+                class=" relative z-20  w-full mx-auto flex flex-col items-start md:items-center px-4 md:px-0 max-md:mt-[30vw]">
+                <!-- Título -->
+                <h1 class=" flex flex-col sm:gap-1 md:gap-2 justify-between items-start md:items-center w-full">
+                    <span
+                        class="p1 text-[30px] sm:text-[32px] md:text-[50px] lg:text-[50px] xl:text-[52px] 2xl:text-[70px] font-black text-lightblue leading-none w-full text-left md:text-center">
+                        <span class="pop block md:inline">LLENAMOS</span>
+                        <span class="pop block md:inline">TU AGENDA</span>
+                    </span>
+                    <span
+                        class="p2  text-[23px] sm:text-[22px] md:text-[28px] lg:text-[40px] 2xl:text-[55px] font-semibold text-darkblue leading-none w-full text-left md:text-center">
+                        <span class="pop block md:inline">CON PACIENTES</span>
+                        <span class="pop font-extrabold text-darkblue block md:inline">CALIFICADOS</span>
+                    </span>
+                    <span
+                        class=" text-[19px] sm:text-[22px] md:text-[28px] lg:text-[40px] 2xl:text-[55px] font-semibold sm:font-extrabold text-darkblue leading-none w-full text-left md:text-center">
+                        <span class="pop block md:inline">EN MENOS DE
+                            <span id="typewriter" class="pop font-extrabold text-lightblue"></span>
+                        </span>
+                    </span>
+                </h1>
+                <!-- Subtítulo -->
+                <span
+                    class="intel sm:text-[13px] md:text-[18px] lg:text-[28px] 2xl:text-[40px] text-darkblue mt-4 w-full text-left md:text-center">
+                    <span class="intel block md:inline">Sino, trabajamos</span>
+                    <span class="intel block md:inline"><span class="text-mintgreen font-bold">GRATIS</span> hasta
+                        lograrlo</span>
+                </span>
+                <!-- Botones -->
+                <div class="mt-7 flex flex-col md:flex-col gap-4 justify-center">
+                    <div class="flex flex-col md:flex-row justify-between gap-1">
+                        <a href="#" class="w-full md:w-auto abrir-calendly">
+                            <button
+                                class="intel w-full cursor-pointer flex items-center justify-center rounded-md bg-blue-500 px-4 py-2 text-sm  md:text-lg 2xl:text-[26px] font-semibold text-white shadow-lg shadow-blue-500/50 focus:outline-none text-center transition-all duration-300 hover:-translate-y-1">
+                                Quiero llenar mi agenda
+                            </button>
+                        </a>
+                        <a href="#beneficios" class="w-full md:w-auto max-md:w-40">
+                            <button
+                                class="intel w-full cursor-pointer rounded-md bg-transparent border border-blue-500 px-4 py-2 text-sm md:text-lg 2xl:text-[26px] font-normal text-blue-500 shadow-lg shadow-blue-500/50 focus:outline-none text-center transition-all duration-300 hover:-translate-y-1">
+                                Más información
+                            </button>
+                        </a>
+                    </div>
+                    <p
+                        class="intel parrafoHero hidden md:block intel  md:text-[14px] xl:text-[17px] 2xl:text-[20px] text-darkblue font-medium mx-auto text-center">
+                        Especialistas en marketing digital para profesionales de la salud: <br> odontología, estética,
+                        fisioterapia y más
+                    </p>
+                </div>
+
+                <div class="mt-3 justify-center eli__movil md:block hidden">
+                    <div class="intel rounded-full bg-mintgreen shadow-lg px-4 py-4 text-center max-w-2xl w-full ">
+                        <span class="font-bold text-white text-[15px] md:text-[18px] 2xl:text-2xl leading-none">Agenda
+                            hoy una llamada gratuita y descubre</span>
+                        <span
+                            class="block text-white text-[13px] md:text-[18px] 2xl:text-2xl font-normal leading-none">cómo
+                            lo vamos a aplicar en tu negocio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN BENEFICIOS ===== -->
+    <section id="beneficios" class="section2 w-screen max-sm:h-[70vh]  relative z-10 -mt-[1px] ">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920.34 952.16"
+                class="svg2 absolute top-0 left-0 w-full h-full" preserveAspectRatio="none">
+                <defs>
+                    <style>
+                        .fondo2 {
+                            fill: #002457;
+                        }
+                    </style>
+                </defs>
+                <g id="Capa_2" data-name="Capa 2">
+                    <g id="Capa_1-2" data-name="Capa 1">
+                        <path class="fondo2"
+                            d="M1920.34,952.16V28.3C1664.3.46,1457.58-1.75,1321.12.79c-401.25,7.48-639.6,64.36-1110,42.07C119.65,38.52,45.47,32.43,0,28.3V952.16Z" />
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+        <div class="relative z-10 w-full h-full flex items-center justify-center py-10">
+            <div class="conten_imagen-manosdoc absolute right-0 top-0 bottom-0 h-full w-1/2 m-0 p-0 overflow-hidden ">
+                <img class="beneficio_img1 imagen-manosdoc absolute right-0 top-0 h-full w-auto object-contain md:object-cover m-0 p-0 overflow-hidden "
+                    src="src/webs/crecimiento_freepikimagesection2.webp" alt="Imagen de crecimiento"
+                    style="top: -0.5%;right: -5%;max-width: none;" />
+            </div>
+            <div class="relative w-full flex items-center flex-col justify-center sm:mt-1">
+                <!-- Texto de fondo, posicionado absolutamente a la izquierda -->
+                <div
+                    class="flex  md:flex-row items-center justify-center sm:gap-6 sm:w-full sm:mx-auto xl:mt-20  max-sm:mt-[16vw]">
+                    <h2 id="titulo2"
+                        class="max-md:mr-2 pop max-sm:text-[30px] md:text-5xl xl:text-6xl  font-extrabold text-white leading-tight text-left">
+                        <span class="pop block">TE OFRECEMOS</span>
+                        <span class="pop block text-mintgreen">CRECIMIENTO</span>
+                        <span class="pop block">PROFESIONAL</span>
+                    </h2>
+                    <img src="src/svg/icon_integration2.svg" alt="icono"
+                        class="sm:w-40 sm:h-40 xl:w-75 xl:h-60 md:flex-shrink-0 max-sm:h-25" />
+                </div>
+                <div
+                    class="w-full absolute left-10 top-1/2 -translate-y-1/2 pointer-events-none select-none z-0 letras-section2 max-sm:hidden">
+                    <h1 class="text-left opacity-5 text-white leading-none font-black ">
+                        <span class="block md:text-[70px] nt1 2xl:text-[900px]">¿QUÉ</span>
+                        <span class="block font-bold text-[40px] nt2">CONSIGUES</span>
+                        <span class="block text-[70px]  2xl:text-[80px] nt3">CON</span>
+                        <span class="block font-bold text-[40px] nt4">NOSOTROS?</span>
+                    </h1>
+                </div>
+                <!-- Bloque azul centrado en la pantalla -->
+                <div
+                    class="max-sm:w-[95vw] relative z-10 flex flex-col items-center w-full max-w-2xl xl:max-w-3xl conten_menu mx-auto">
+                    <ul
+                        class="intel flex-wrap lista_benificio mt-6 bg-blue-500/90 rounded-4xl max-sm:px-3  max-sm:py-3 sm:px-10 sm:py-6 flex flex-col gap-1 sm:gap-3 w-full shadow-lg intel ">
+                        <li class="flex items-center text-white md:text-lg xl:text-2xl">
+                            <div
+                                class="flex items-center justify-center rounded-full bg-mintgreen w-6 h-6 max-sm:w-[30px] max-sm:h-[30px] me-4">
+                                <img src="src/svg/check_icon.svg" alt="" class="w-4 h-4" />
+                            </div>
+                            <span><b>Citas con pacientes reales</b> y listos para agendar</span>
+                        </li>
+                        <li class="flex items-center text-white md:text-lg xl:text-2xl">
+                            <div
+                                class="flex items-center justify-center rounded-full bg-mintgreen w-6 h-6 max-sm:w-[40px] max-sm:h-[33x] me-4">
+                                <img src="src/svg/check_icon.svg" alt="" class="w-4 h-4" />
+                            </div>
+                            <span><b>Automatización del seguimiento</b> (WhatsApp + Email)</span>
+                        </li>
+                        <li class="flex items-center text-white md:text-lg xl:text-2xl">
+                            <div
+                                class="flex items-center justify-center rounded-full bg-mintgreen w-6 h-6 max-sm:w-[30px] max-sm:h-[30px] me-4">
+                                <img src="src/svg/check_icon.svg" alt="" class="w-4 h-4" />
+                            </div>
+                            <span><b>Anuncios estratégicos</b> en Meta y Google</span>
+                        </li>
+                        <li class="flex items-center text-white md:text-lg xl:text-2xl">
+                            <div
+                                class="flex items-center justify-center rounded-full bg-mintgreen w-6 h-6 max-sm:w-[30px] max-sm:h-[30px] me-4">
+                                <img src="src/svg/check_icon.svg" alt="" class="w-4 h-4" />
+                            </div>
+                            <span><b>Posicionamiento SEO</b> local para aparecer en Google</span>
+                        </li>
+                        <li class="flex items-center text-white md:text-lg xl:text-2xl">
+                            <div
+                                class="flex items-center justify-center rounded-full bg-mintgreen w-6 h-6 max-sm:w-[30px] max-sm:h-[30px] me-4">
+                                <img src="src/svg/check_icon.svg" alt="" class="w-4 h-4" />
+                            </div>
+                            <span>Sin riesgo: <span class="font-bold text-white">garantizamos resultados</span> o
+                                trabajamos gratis</span>
+                        </li>
+                    </ul>
+                    <a href="#solicitar-agenda" class="mt-8 w-100 max-w-2xl max-sm:w-[80vw] max-sm:hidden">
+                        <button
+                            class="intel w-full cursor-pointer flex items-center justify-center rounded-lg bg-mintgreen px-4 py-3 text-base md:text-lg xl:text-2xl font-semibold text-white shadow-lg focus:outline-none text-center transition-all duration-300 hover:-translate-y-1">
+                            Solicitar mi auditoría GRATUITA
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN RESULTADOS ===== -->
+    <section id="resultados"
+        class="section3 bg-lightblue w-screen h-screen  flex md:items-center justify-center relative z-30 -mt-[1px] scroll-mt-20 max-sm:h-[400px]">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920.34 990"
+            class="absolute  left-0 w-full h-full top-[-2px]" preserveAspectRatio="none">
+            <defs>
+                <style>
+                    .fondo3 {
+                        fill: url(#Degradado_sin_nombre_117);
+                    }
+                </style>
+                <linearGradient id="Degradado_sin_nombre_117" x1="960.17" y1="990" x2="960.17"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#003b9d" />
+                    <stop offset="0.12" stop-color="#00358a" />
+                    <stop offset="0.29" stop-color="#002d73" />
+                    <stop offset="0.49" stop-color="#002863" />
+                    <stop offset="0.71" stop-color="#00255a" />
+                    <stop offset="1" stop-color="#002457" />
+                </linearGradient>
+            </defs>
+            <g id="Capa_2" data-name="Capa 2">
+                <g id="Capa_1-2" data-name="Capa 1">
+                    <path class="fondo3"
+                        d="M0,0V964.06A2282.38,2282.38,0,0,1,420.16,905.4c337.43-15.39,511.38,52.46,855.58,76.7,146.46,10.32,367.72,15.83,644.6-18V0Z" />
+                </g>
+            </g>
+        </svg>
+
+        <!-- Contenedor de la imagen fijo a la izquierda -->
+        <div
+            class="absolute left-0 h-[350px] w-[350px] 2xl:w-[420px] 2xl:h-[520px]  flex items-center z-10 overflow-hidden content-img max-md:hidden">
+            <img src="src/svg/imagecontainer12.png" alt="Decoración de borde" />
+        </div>
+
+        <div class="container relative z-10 content-pro flex sm:mt-10 md:items-center contenedor_texto">
+
+            <!-- Contenido centrado en toda la pantalla -->
+            <div class="resultado absolute   w-full flex flex-col items-center z-20">
+                <h2 id="titulo3" class="text-4xl md:text-5xl 2xl:text-7xl font-extrabold text-white text-center sm:mb-8 max-sm:mb-4 flex flex-col max-sm:gap-0">
+                    <span class="pop  text-white">RESULTADOS</span>
+                    <span class="pop  text-mintgreen">REALES</span>
+                </h2>
+                <div class="flex flex-col items-center w-full intel">
+                    <!-- Primer testimonio -->
+                    <div class="comentario1 ml-0 md:ml-[-90px] w-full md:w-1/2 mb-2 max-md:w-[80vw] max-md:me-12">
+                        <div
+                            class="burbuja1 shadow-lg shadow-black/90 bg-white max-sm:rounded-xl rounded-full sm:rounded-4xl px-5 py-3 sm:px-6 sm:py-5 md:px-8 md:py-6 relative max-sm:h-[90px]">
+
+                            <p class="intel text-darkblue text-[14px]  sm:text-lg md:text-2xl font-bold leading-snug">
+                                “Pasamos de tener 3 pacientes al día a tener la agenda llena en menos de un mes"
+                            </p>
+                            <div
+                                class="mt-0 sm:mt-3 text-darkblue text-[12px] sm:text-base md:text-lg font-normal flex items-center">
+                                <span class="intel block">— Dra. Lucía Méndez (Odontóloga)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Segundo testimonio -->
+                    <div class="comentario2 relative mr-0 max-md:ml-12 md:mr-[-10px] w-full md:w-[45%] mt-[-40px] md:mt-[-65px] md:ml-[315px] max-md:w-[80vw]"
+                        style="top: 45px;">
+                        <div
+                            class="burbuja2 shadow-lg shadow-black/90 bg-white max-sm:rounded-xl sm:rounded-4xl py-4 px-5 sm:px-6 sm:py-5 md:px-8 md:py-6 relative max-md:h-[100px]">
+
+                            <p class="intel text-darkblue text-[14px] sm:text-lg md:text-2xl font-bold leading-snug">
+                                “No tenía tiempo de responder mensajes, y ahora el sistema automatiza todo. Estoy
+                                cerrando más citas sin esfuerzo"
+                            </p>
+                            <div
+                                class="mt-0 sm:mt-3 text-darkblue text-[12px] md:text-lg font-normal flex items-center">
+                                <span class="intel block">— Clínica Revital</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Imagen de fondo centrada abajo -->
+            <div class="relative w-screen h-full">
+                <img src="src/svg/logoclaro.svg" alt="Decoración de fondo"
+                    class="logoclaro2 absolute max-md:top-0 -bottom-80 z-0 max-w-[30vw] right-0 w-auto h-auto pointer-events-none select-none me-10" />
+            </div>
+            <div class="absolute w-full h-full  ">
+                <img style="" src="src/svg/visual_background3.svg" alt="Decoración de fondo"
+                    class="absolute max-md:bottom-8 right-0 z-0 max-md:w-[100vw] md:max-w-[60vw] md:top[178px] " />
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN FUNCIONAMIENTO ===== max-md:h-[60vh] -->
+    <section id="funcionamiento" class="section4 w-screen h-screen flex max-md:h-[450px] relative z-20 scroll-mt-20">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1929.67 1056"
+            class="absolute  left-0 w-full h-full top-[-1px]" preserveAspectRatio="none">
+            <defs>
+                <style>
+                    .fondo4 {
+                        fill: url(#Degradado_sin_nombre_98);
+                    }
+                </style>
+                <linearGradient id="Degradado_sin_nombre_98" x1="964.83" x2="964.83" y2="1056"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0.39" stop-color="#007bea" />
+                    <stop offset="0.75" stop-color="#005ce1" />
+                </linearGradient>
+            </defs>
+            <g id="Capa_2" data-name="Capa 2">
+                <g id="Capa_1-2" data-name="Capa 1">
+                    <path class="fondo4"
+                        d="M1925.06,1028.79c-263.61-71.14-474.87-78.18-614.27-72.81-310.18,12-449.78,92.53-766.41,99.55C308.63,1060.75,117.71,1022,.44,991.58-1.09,594.75,2,396.82.44,0H1929.67Z" />
+                </g>
+            </g>
+        </svg>
+
+        <div class="flex flex-col items-center justify-center w-full z-20 max-sm:mt-[-30px] md:mt-10 gap-5 md:gap-8">
+            <div class="flex flex-row w-full max-md:h-[50px] md:pl-60 mb-5 md:mb-10 lg:pt-0 md:pt-30 max-sm:pt-0">
+                <div class="max-sm:absolute max-md:text-center max-md:w-full flex flex-col  text-left mr-8">
+                    <h2 id="titulo4"
+                        class="letras-funcionamiento text-5xl md:text-7xl 2xl:text-8xl max-md:text-[30px] sm:text-lg font-extrabold   mb-4 nt5 pop">
+                        <span class="pop block text-darkblue">¿CÓMO</span>
+                        <span class="pop block text-white md:mt-2">FUNCIONA?</span>
+                    </h2>
+                </div>
+                <div class="flex  justify-end h-full" style="
+                width: 100%;">
+                    <img src="./src/svg/sinwave_object.svg" alt="icono"
+                        class="h-20 md:h-60 max-h-60 w-auto object-contain" />
+                </div>
+            </div>
+
+            <div class="relative botton-30 w-screen md:bottom-[25px] z-10">
+
+                <ol class="flex flex-col gap-2 md:gap-4 w-full intel xl:max-w-[50rem] mx-auto max-sm:items-center">
+                    <li class="flex items-center md:gap-4">
+                        <span
+                            class="text-white  rounded-full w-10 h-10 flex items-center justify-center text-4xl md:text-6xl xl:text-7xl font-extrabold pop">1</span>
+                        <span
+                            class="max-sm:flex max-sm:flex-col intel bg-white max-sm:w-75 w-100 md:w-full rounded-full px-4 py-2 text-sm md:text-2xl xl:text-3xl font-bold text-blue">Agendamos
+                            una
+                            llamada para conocer
+                            <span class="intel text-blue  text-sm md:text-2xl xl:text-3xl font-normal  sm:inline">
+                                tu clínica</span>
+                        </span>
+
+                    </li>
+                    <li class="flex items-center md:gap-3 ">
+                        <span
+                            class="text-white  rounded-full w-10 h-10 flex items-center justify-center text-4xl md:text-6xl xl:text-7xl  font-extrabold pop">2</span>
+                        <span
+                            class="max-sm:flex max-sm:flex-col intel bg-white max-sm:w-75 w-95 md:w-full  rounded-full px-4 py-2 text-sm md:text-3xl xl:text-3xlfont-normal text-blue">
+                            En
+                            1 semana <b class="contents">implementamos tu sistema completo</b>
+                            <!-- <span class="intel text-blue text-sm md:text-2xl xl:text-3xl font-bold  sm:inline">
+                                completo</span> -->
+                        </span>
+
+                    </li>
+                    <li class="flex items-center md:gap-4">
+                        <span
+                            class="pop text-white  rounded-full w-10 h-10 flex items-center justify-center text-4xl md:text-6xl xl:text-7xl font-extrabold">3</span>
+                        <span
+                            class=" max-sm:flex max-sm:flex-col intel bg-white w-95 max-sm:w-75 md:w-full  rounded-full px-4 py-2 text-sm md:text-2xl xl:text-3xl font-bold text-blue">
+                            Empiezas a recibir pacientes y llenar <span> tu agenda</span></span>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="flex justify-center items-end-safe w-full md:mb-30 relative z-20">
+                <a href="#" class="abrir-calendly">
+                    <button
+                        class="intel flex cursor-pointer items-center justify-center md:gap-2 h-10 bg-mintgreen text-white font-bold px-5 md:py-6 xl:py-8 rounded-2xl md:rounded-lg shadow transition-all duration-300 hover:-translate-y-1 md:text-xl xl:text-3xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10" height="10" style="margin-right: 10px;
+                        min-width: 30px;
+                        min-height: 40px;">
+                            <path fill="#ffffff"
+                                d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                        </svg>
+                        Agendar Llamada
+                    </button>
+                </a>
+            </div>
+            <div class="flex absolute justify-between h-full w-full z-0" style="align-items: flex-end;">
+                <img src="src/svg/scale_object.svg" alt=""
+                    class="w-20 h-45  md:w-40 md:h-auto object-contain order-1 ml-3 md:ml-10 md:bottom[-25px] max-md:hidden"
+                    style="
+                position: relative;
+                ">
+
+                <img src="src/svg/clear_logo.svg" alt=""
+                    class="img2 w-60 h-auto object-contain order-2 img1 xl:w-[20vw] lg:w-[30vw] md:top-[-22vw] lg:top-[-10vw] max-sm:hidden"
+                    style="
+                position: relative;
+                right: 5vw;
+                    ">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ===== SECCIÓN GARANTIA ===== -->
+    <section id="garantia"
+        class="section5 w-screen md:h-screen flex relative z-10 xl:mt-[-110px] md:mt-[-110px] lg:mt-[80px] mt-[-100px]">
+        <!-- SVG de fondo, debe quedar detrás de todo el contenido y ocupar todo el ancho y alto -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920.19 1024.6"
+            class="svg-section5 absolute inset-0 object-cover z-0 w-screen h-screen" preserveAspectRatio="none">
+            <defs>
+                <style>
+                    .fondo5 {
+                        fill: #c7f7ff;
+                    }
+                </style>
+            </defs>
+            <g id="Capa_2" data-name="Capa 2">
+                <g id="Capa_1-2" data-name="Capa 1">
+                    <rect class="fondo5" width="1920.19" height="1024.6" />
+                </g>
+            </g>
+        </svg>
+        <!-- Imagen decorativa a la derecha -->
+        <div class="absolute w-screen h-screen flex items-center">
+            <img src="src/svg/circle_object.svg" alt="Fondo Derecha"
+                class="circuloverde absolute left-[-40px] top-[128px] md:top-[155px] md:left-[-41px] max-h-full max-md:w-40 max-md:h-[23vh]  md:w-[440px] md:h-[440px] xl:w-[640px] xl:h-[640px] z-10 object-cover" />
+        </div>
+
+
+        <!-- Imagen decorativa a la derecha -->
+        <img src="src/webs/garantia_dreamstimeimagesection5.webp" alt="Fondo Derecha"
+            class="docdoble absolute right-0 max-sm:top-[50px] md:top-0 h-full max-h-full w-auto xl:max-w-[60vw] z-10 max-md:h-[35vh]" />
+        <!-- Contenido principal -->
+        <div
+            class="contenidoprincipal_section5 relative z-20 flex flex-col items-center justify-center max-w-5xl mx-auto pt-30 pb-10 sm:py-16">
+            <!-- Imagen central (gráfica) -->
+            <img src="src/svg/stadistic_increaseobject.svg" alt="Gráfica Garantía"
+                class=" w-50 sm:w-60 md:w-80 mb-4 xl:w-100" />
+            <!-- Título principal -->
+            <h2 id="titulo5" class="pop garantia text-2xl sm:text-3xl md:text-7xl font-black  text-center px-4 py-2 rounded-md max-md:mb-3 mb-4 max-sm:gap-0 max-sm:flex max-sm:flex-col"
+                style="">
+                <span class=" text-darkblue leading-none m-0 p-0">GARANTÍA DE</span>
+                <span class=" text-lightblue leading-none m-0 p-0">RESULTADOS</span>
+            </h2>
+            <!-- Subtítulo -->
+            <div
+                class="comentar_garantia bg-white intel rounded-full shadow-lg px-6 py-4 text-center mb-6 flex flex-col text-wrap max-md:w-[74%] max-md:rounded-lg max-md:py-2 max-md:px-2 2xl:w-[40vw] 2xl:px-2">
+                <span class=" intel text-[17px] sm:text-lg md:text-2xl xl:text-3xl text-blue leading-none">
+                    Si no generamos al menos 20 citas calificadas en 30 días, seguimos trabajando <b class="font-bold text-blue">sin cobrarte</b> hasta lograrlo
+                </span>
+            </div>
+            <!-- Frase final -->
+            <div
+                class="intel text-lg md:text-2xl font-bold text-blue xl:text-3xl text-center flex flex-wrap justify-center items-center gap-2">
+                Así de
+                <span class="intel bg-mintgreen text-white px-2 p rounded-lg text-center font-bold">
+                    seguros
+                </span>
+                estamos del sistema
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECCIÓN GARANTIA BOCA A BOCA ===== style="height: 100%; width: 100%; z-index: 0; min-height: 100%; max-height: 100%;"-->
+    <section id="bocaboca"
+        class="section6 w-screen mi-gradiente relative z-20 bg-gradient-to-b lg:top-[-70px] max-sm:h-[315px] max-md:h-65 ">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920.02 789.07"
+            class="absolute inset-0 w-full h-full object-cover" style="" preserveAspectRatio="none"
+            class="w-screen h-screen"></svg>
+        <defs>
+            <style>
+                .fondo6 {
+                    fill: url(#Degradado_sin_nombre_4);
+                }
+            </style>
+            <linearGradient id="Degradado_sin_nombre_4" x1="960.01" y1="-723.2" x2="960.01" y2="-1512.28"
+                gradientTransform="translate(0 1512.28)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fff" />
+                <stop offset="0.12" stop-color="#f5feff" />
+                <stop offset="0.45" stop-color="#dcfaff" />
+                <stop offset="0.75" stop-color="#ccf8ff" />
+                <stop offset="1" stop-color="#c7f7ff" />
+            </linearGradient>
+        </defs>
+        <g id="Capa_2" data-name="Capa 2">
+            <g id="Capa_1-2" data-name="Capa 1">
+                <path class="fondo6" d="M1920,789.07H0V0H1920Z" />
+            </g>
+        </g>
+        </svg>
+        <div class="container mx-auto px-4  max-md:h-[100%] max-md:flex max-md:items-center max-md:justify-center">
+            <div class="relative flex flex-col items-center justify-center md:gap-8">
+                <img src="./src/svg/grid_object.svg" alt="" class="cuadrado1 absolute top-10 left-24 w-8 h-8 rotate-45">
+
+                <div
+                    class="max-sm:text-[29px] md:text-5xl font-black text-center relative leading-none max-md:mb-3 flex flex-col items-center lg:w-4xl">
+                    <span class="pop text-darkblue">¿LISTO PARA DEJAR DE DEPENDER DEL BOCA A BOCA Y REDES</span>
+                    <span class="pop text-darkblue max-md:flex max-md:flex-col">SOCIALES <span class="pop text-orange"> SIN RESULTADOS <b class="text-darkblue">?</b> </span></span>
+                    
+                    
+                </div>
+
+                <div class="intel flex justify-center items-center flex-col gap-3 md:gap-4 relative "
+                    style="">
+                    <button
+                        class="intel max-md:py-[3px] max-md:px-[6px] md:px-6 md:py-3 text-mintgreen border-[2px]  md:border-[3px] border-mintgreen rounded-xl md:rounded-full font-semibold text-center text-[14px] sm:text-lg md:text-2xl">
+                        Te mostramos cómo hacerlo, sin compromiso
+                    </button>
+                    <button id="solicitar-agenda"
+                        class="intel abrir-calendly max-md:py-[6px] max-md:px-[7px] bg-mintgreen text-white font-bold md:py-2 md:px-3 rounded-lg shadow-md shadow-[#007BEA]/20 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-1 text-center text-[15px]  sm:text-lg md:text-2xl transition-all duration-300 hover:-translate-y-1 cursor-pointer">
+                        ¡Quiero agendar una auditoría GRATUITA!
+                    </button>
+
+                    <div class="flex justify-center items-center w-full absolute left-0 right-0 z-0 conte_flecha "
+                        style="top: 0px; pointer-events: none;">
+                        <img src="src/svg/path_uncontinuous_objetc.svg" alt=""
+                            class="fecha-verde max-lg:hidden w-[75%] h-[0%] object-contain left-[115px]" style="
+                            position: relative;
+                            top: 90px;
+                                " />
+                    </div>
+
+                </div>
+
+                <img src="./src/svg/circle_object_1.svg" alt=""
+                    class="circulo1 absolute bottom-[-20px] left-16 w-32 h-32  ">
+                <img src="./src/svg/circle_object_1.svg" alt=""
+                    class="circulo2 absolute top-[-70px] right-30 w-30 h-30 ">
+                <img src="./src/svg/grid_object.svg" alt="" class="cuadrado2 absolute bottom-10 right-28 w-16 h-16 rotate-45">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="section7 w-screen relative z-20 bg-darkblue py-6">
+        <div class="container mx-auto px-4">
+            <!-- Contenedor centrado pero contenido alineado a la izquierda -->
+            <div class="flex justify-center">
+                <div class="max-w-5xl mx-auto flex flex-col items-start text-left">
+                    <div class="flex flex-row items-center gap-6 w-full mb-5">
+                        <!-- Logo y nombre -->
+                        <a href="#hero">
+                            <div class="flex items-center">
+                                <img src="src/svg/logopacienteideal.svg" alt="Logo Paciente Ideal"
+                                    class="logo-white-svg h-10 w-30" />
+                            </div>
+                        </a>
+                        <!-- Iconos redes sociales -->
+                        <div class="flex items-center gap-4 ml-4 redes__content">
+                            <a href="https://wa.me/+584243055075" target="_blank" aria-label="WhatsApp">
+                                <img src="src/svg/whatsapp_icon.svg" alt="WhatsApp" class="h-6 w-6" /></a>
+                            <a href="#" aria-label="Instagram"><img src="src/svg/ig_appicon.svg" alt="Instagram"
+                                    class="h-6 w-6" /></a>
+                            <a href="#" aria-label="Facebook"><img src="src/svg/fb_appicon.svg" alt="Facebook"
+                                    class="h-6 w-6" /></a>
+                            <a href="#" aria-label="LinkedIn"><img src="src/svg/linkdin_appicon.svg" alt="LinkedIn"
+                                    class="h-6 w-6" /></a>
+                        </div>
+                    </div>
+                    <!-- Texto legal -->
+                    <div class="pop text-white text-xs derechos mb-2">
+                        © 2025. Todos los derechos reservados, PacienteIdeal® es una marca comercial de
+                        MoreSalesDigitalAgency®<br>
+                        <p class="max-md:hidden">La marca registrada PacienteIdeal® es propiedad intelectual de
+                            MoreSalesDigitalAgency®</p>
+                    </div>
+                    <!-- Línea divisoria -->
+                    <div class="flex justify-center flex-col items-center w-full">
+                        <hr class="border-[#cccccc] w-3/4 mb-3 max-md:hidden" />
+                        <div class="pop text-white text-xs text-center">
+                            © 2025. PacienteIdeal.com
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Menú inferior fijo tipo app móvil -->
+    <section id="menu-bottom" class="max-sm:block bottom-0 left-0 w-full z-50 bg-white hidden" style="height: 70px;">
+
+        <nav class="flex w-full h-full rounded-t-3xl bg-white">
+            <!-- Principal -->
+            <a href="#hero" class="flex-1 flex flex-col text-lightblue items-center justify-center py-2 group">
+                <div class="w-10 h-10 flex items-center justify-center">
+                    <!-- Ícono casa -->
+                    <!-- Ícono casa -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ionicon text-lightblue"
+                        viewBox="0 0 512 512">
+                        <path
+                            d="M80 212v236a16 16 0 0016 16h96V328a24 24 0 0124-24h80a24 24 0 0124 24v136h96a16 16 0 0016-16V212"
+                            fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" />
+                        <path d="M480 256L266.89 52c-5-5.28-16.69-5.34-21.78 0L32 256M400 179V64h-48v69" fill="none"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                    </svg>
+                </div>
+                <span class="intel text-xs font-bold transition-colors">Principal</span>
+            </a>
+            <!-- Beneficios -->
+            <a href="#beneficios" data-section="beneficios"
+                class="flex-1 flex flex-col items-center justify-center py-2 group text-lightblue">
+                <div class="w-10 h-10 flex items-center justify-center">
+                    <!-- Ícono mano con flecha -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ionicon" viewBox="0 0 512 512">
+                        <path d="M32 32v432a16 16 0 0016 16h432" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                        <rect x="96" y="224" width="80" height="192" rx="20" ry="20" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                        <rect x="240" y="176" width="80" height="240" rx="20" ry="20" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                        <rect x="383.64" y="112" width="80" height="304" rx="20" ry="20" fill="none"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                    </svg>
+                </div>
+                <span class="intel text-xs font-bold transition-colors">Beneficios</span>
+            </a>
+
+            <!-- Resultados -->
+            <a href="#resultados" data-section="resultados"
+                class="flex-1 flex flex-col items-center justify-center py-2 group text-lightblue">
+                <div class="w-10 h-10 flex items-center justify-center  rounded-t-3xl">
+                    <!-- Ícono gráfico de barras -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ionicon " viewBox="0 0 512 512">
+                        <rect x="64" y="320" width="48" height="160" rx="8" ry="8" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                        <rect x="288" y="224" width="48" height="256" rx="8" ry="8" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                        <rect x="400" y="112" width="48" height="368" rx="8" ry="8" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                        <rect x="176" y="32" width="48" height="448" rx="8" ry="8" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="32" />
+                    </svg>
+                </div>
+                <span class="intel text-xs font-bold bg-gradient-to-r   px-2 rounded-t-xl">Resultados</span>
+            </a>
+            <!-- Solución -->
+            <a href="#funcionamiento" data-section="funcionamiento"
+                class="flex-1 flex flex-col items-center justify-center py-2 group text-lightblue">
+                <div class="w-10 h-10 flex items-center justify-center">
+                    <!-- Ícono lupa -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ionicon " viewBox="0 0 512 512">
+                        <path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none"
+                            stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
+                            stroke-width="32" d="M338.29 338.29L448 448" />
+                    </svg>
+                </div>
+                <span class="intel text-xs font-bold transition-colors">Solución</span>
+            </a>
+            <a href="#garantia" data-section="garantia"
+                class="flex-1 flex flex-col items-center justify-center py-2 group text-lightblue">
+                <div class="w-10 h-10 flex items-center justify-center">
+                    <!-- Ícono lupa -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ionicon " viewBox="0 0 512 512">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" d="M336 176L225.2 304 176 255.8" />
+                        <path
+                            d="M463.1 112.37C373.68 96.33 336.71 84.45 256 48c-80.71 36.45-117.68 48.33-207.1 64.37C32.7 369.13 240.58 457.79 256 464c15.42-6.21 223.3-94.87 207.1-351.63z"
+                            fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" />
+                    </svg>
+
+                </div>
+                <span class="intel text-xs font-bold  transition-colors">Garantía</span>
+            </a>
+
+        </nav>
+    </section>
+    <!-- ===== MODAL CALENDLY ===== -->
+    <div id="calendly-modal"
+        style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); align-items:center; justify-content:flex-start; transition:background 0.3s;">
+        <div id="calendly-modal-content"
+            style="background:#fff; border-radius:16px; position:relative; box-shadow:0 8px 32px rgba(0,0,0,0.2); margin-left:0; width:600px; max-width:98vw; height:90vh; display:flex; flex-direction:column; transform:translateX(-100%); transition:transform 0.4s cubic-bezier(.4,0,.2,1); overflow:hidden;">
+            <div style="position: absolute; top: 40px; right: 120px; z-index: 51; display: flex; gap: 8px;"
+                class="screen-button-modal">
+                <!-- Botón para expandir/encoger -->
+                <button id="toggle-size-modal" title="Expandir/Reducir"
+                    style="background: #e5e7eb; border: none; border-radius: 9999px; padding: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center;">
+                    <!-- Aquí puedes poner tu icono, por ejemplo un SVG de expandir/reducir -->
+                    <svg id="icon-expand" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                        viewBox="0 0 24 24">
+                        <path stroke="#007BEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            d="M4 8V4h4M20 8V4h-4M4 16v4h4M20 16v4h-4M16 4l-5 5M8 20l5-5" />
+                    </svg>
+                </button>
+            </div>
+            <button id="cerrar-calendly"
+                class="bg-lightblue cursor-pointer absolute my-10 font-bold text-white rounded-full px-4 py-2"
+                style=" right:16px; font-size:1.2rem; z-index:50;">
+                Cerrar
+            </button>
+            <div style="padding:48px 12px 12px 12px; flex:1; height:100%; overflow:hidden;">
+                <!-- Calendly inline widget begin -->
+                <!-- Principio del widget integrado de Calendly -->
+                <!-- Principio del widget integrado de Calendly -->
+                <!-- Principio del widget integrado de Calendly -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/pacienteideal/sesion-estrategica"
+                    style="min-width:320px;height:100%;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
+                    async></script>
+                <!-- Final del widget integrado de Calendly -->
+                <!-- Final del widget integrado de Calendly -->
+                <!-- Final del widget integrado de Calendly -->
+                <!-- Calendly inline widget end -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script defer src="src/js/menu.js"></script>
+    <script defer src="src/js/letrasAncho.js"></script>
+    <script defer src="src/js/modal.js"></script>
+
+</body>
+
+</html>

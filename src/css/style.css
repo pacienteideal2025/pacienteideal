@@ -1,0 +1,108 @@
+/* FUENTES: inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* FUENTE: poppins*/
+/* FUENTES: poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+main {
+    background: linear-gradient(180deg, #ffffff, #eef7ff);
+    /* Fondo blanco a azul claro */
+}
+
+.titulo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.subtitulo {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500 !important;
+    font-style: normal;
+}
+
+.intel {
+    font-family: "Inter", sans-serif;
+}
+
+.pop {
+    font-family: "Poppins", sans-serif;
+}
+
+.subtitulo__1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.subtitulo__2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo-white-svg {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(200%) contrast(100%);
+}
+
+.linea {
+    border-color: white;
+    border-width: 1px;
+    width: 50%;
+}
+
+.derechos {
+    margin-bottom: 10px;
+}
+
+.content-img img {
+    object-fit: fill;
+    /* Cambiamos a "contain" para que la imagen completa sea visible */
+    width: 100%;
+    /* Aseguramos que la imagen intente ocupar todo el ancho del contenedor */
+    height: 100%;
+    /* Aseguramos que la imagen intente ocupar toda la altura del contenedor */
+}
+
+.mi-gradiente {
+    background: linear-gradient(to bottom, #c7f7ff 0%, #ccf8ff 25%, #dcfaff 55%, #f5feff 88%, #fff 100%);
+}
+
+#navbar {
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#navbar a {
+    transition: color 0.3s ease;
+}
+
+/* seccion 1 */
+#hero {
+    background: linear-gradient(180deg, #e0f7fa, #ffffff);
+    /* Fondo azul claro a blanco */
+}
+
+#menu-bottom {
+    transition: bottom 4s cubic-bezier(.4, 0, .2, 1);
+}
+
+.menu-bottom-a-active {
+    color: white !important;
+    /* Verde menta */
+    background-color: #007BEA !important;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
